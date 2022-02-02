@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  Weight sizes  -->
+    <dimen name="greeting_weight">2</dimen>
+    <dimen name="fullname_weight">1</dimen>
+    <dimen name="counter_max">8</dimen>
+
+    <!--  Display padding sizes  -->
+    <dimen name="tvProgressbar_layout_weight">250dp</dimen>
+    <dimen name="tvProgressbar_margin_top">150dp</dimen>
+    <dimen name="username_margin_top">100dp</dimen>
+    <dimen name="button_margin_start">70dp</dimen>
+    <dimen name="progress_bar_margin_start">60dp</dimen>
+    <dimen name="tv_fullname_margin_end">55dp</dimen>
+    <dimen name="buttons_margin_top">50dp</dimen>
+    <dimen name="login_button_margin_top">45dp</dimen>
+    <dimen name="stufa_margin_top">40dp</dimen>
+    <dimen name="switch_margin_start">20dp</dimen>
+    <dimen name="password_margin_top">15dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="switch_padding">8dp</dimen>
+    <dimen name="padding">7dp</dimen>
+    <dimen name="tv_fullname_margin_start">4dp</dimen>
+    <dimen name="tv_margin_top">3dp</dimen>
+    <dimen name="til_margin_top">1dp</dimen>
+    <dimen name="full_name_width">0dp</dimen>
+    <dimen name="no_margin_top">-10dp</dimen>
+
+    <!--  Text sizes  -->
+    <dimen name="char_text_size">48sp</dimen>
+    <dimen name="stufa_text_size">36sp</dimen>
+    <dimen name="tv_student_text_size">25sp</dimen>
+    <dimen name="heading_text_size">24sp</dimen>
+    <dimen name="message_text_size">20sp</dimen>
+    <dimen name="dont_have_account_text_size">18sp</dimen>
+    <dimen name="campus_name_text_size">16sp</dimen>
+    <dimen name="message_query_text_size">15sp</dimen>
+    <dimen name="text_size">13sp</dimen>
+    <dimen name="tv_text_size">12sp</dimen>
+    <dimen name="tv_greeting">24sp</dimen>
+
+</resources>

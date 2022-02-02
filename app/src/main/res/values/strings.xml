@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">SmartMeterBiller</string>
+
+    //For Facebook authentication
+    <string name="facebook_app_id">1452688531799133</string>
+    <string name="fb_login_protocol_scheme">fb1452688531799133</string>
+
+
+    //For Navigation Drawer
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    //My Strings
+    <string name="student_financial_assistance_app">Student Financial Assistance App</string>
+    <string name="bloemfontein_campus">Bloemfontein Campus</string>
+    <string name="welkom_campus">Welkom Campus</string>
+    <string name="bloemfontein">Bloemfontein</string>
+    <string name="welkom">Welkom</string>
+    <string name="submit">SUBMIT</string>
+    <string name="login">Login</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="student_number">Student Number</string>
+    <string name="lastname">Last Name</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="firstname">First Name</string>
+    <string name="please_enter_your_username">Please Enter Your Username</string>
+    <string name="please_enter_your_password">Please Enter Your Password</string>
+    <string name="please_enter_your_email_address">Please Enter Your Email Address</string>
+    <string name="password_successfully_sent_to_your_email_address">Password successfully sent to your email address</string>
+    <string name="dont_have_an_account_create_one_here">Don\'t have an account? Create one here</string>
+    <string name="you_will_be_sent_a_link">You will be sent a link to your email to reset your password</string>
+    <string name="username_email">Username/Email Address</string>
+    <string name="error">Error: </string>
+    <string name="select_your_campus">Select your campus:</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_an_account">Already have an account? Login in here…</string>
+    <string name="welcome_to_the_student_financial_assistant_home_page">Welcome to the Student Financial Assistant Home Page</string>
+    <string name="logout">Logout</string>
+    <string name="hello">Hello</string>
+    <string name="refresh_bookings">Refresh Bookings</string>
+    <string name="download">Download</string>
+    <string name="how_can_we_be_of_your_assistance">How can we be of your assistance?</string>
+    <string name="student_home">Student Home</string>
+    <string name="back">Back</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="please_choose_your_campus">Please choose your campus!</string>
+    <string name="create_a_query">Create A Query</string>
+    <string name="allowance_related_query">Allowance Related Query</string>
+    <string name="book_allowance">- Book Allowance</string>
+    <string name="meal_allowance">- Meal Allowance</string>
+    <string name="accommodation_or_transport_allowance">- Accommodation or Transport Allowance</string>
+    <string name="booking">Booking</string>
+    <string name="booking_message">- Create a face-to-face booking for any complex/related queries</string>
+    <string name="general_query">General Query</string>
+    <string name="general_query_message">- Any complex queries besides the ones mentioned above with clear explanations</string>
+    <string name="create_a_request">Create A Request</string>
+    <string name="financial_statement">Financial Statement</string>
+    <string name="this_allows_statement">- This allows the Student to access and download their financial statement</string>
+    <string name="financial_clearance">Financial Clearance</string>
+    <string name="this_allows_clearance">- This allows the Student to request financial clearance</string>
+    <string name="fill_form">Fill in a form</string>
+    <string name="this_allows_fill_form">- This allows the Student to fill in a form</string>
+    <string name="centlecLink">Want To See Current Tariffs?
+    <a href="https://centlec.co.za/Pages/Documents/Tariffs">Click Here</a>
+    </string>
+    <string name="todo">TODO</string>
+    <string name="empty"></string>
+    <string name="fs_sent">Financial Statement Request Sent!</string>
+    <string name="fc_sent">Financial Statement Request Sent!</string>
+</resources>

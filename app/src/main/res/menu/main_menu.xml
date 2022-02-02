@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/house"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_alert"
+            android:icon="@drawable/alert"
+            android:title="Create Alert" />
+
+        <item
+            android:id="@+id/nav_reading"
+            android:icon="@drawable/readings"
+            android:title="My Readings" />
+
+        <item
+            android:id="@+id/nav_capture_reading"
+            android:icon="@drawable/camera"
+            android:title="Capture A Reading" />
+
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/report"
+            android:title="My Report" />
+    </group>
+
+        <item android:title="Profile">
+
+            <menu>
+                <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/person"
+                    android:title="Profile" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout"
+                    android:title="Logout" />
+                </group>
+            </menu>
+
+        </item>
+
+
+</menu>

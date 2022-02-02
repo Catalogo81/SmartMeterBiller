@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "627845376250",
+    "project_id": "smartmeterbiller",
+    "storage_bucket": "smartmeterbiller.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627845376250:android:27ca836e4c4bf4df3ac143",
+        "android_client_info": {
+          "package_name": "com.example.smartmeterbiller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627845376250-d1ua19psv58h8mqbkrn6pl3lm6atvfma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjmNKeElGUQXY1t2o4LSrZ-7oW3A0npdM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627845376250-d1ua19psv58h8mqbkrn6pl3lm6atvfma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

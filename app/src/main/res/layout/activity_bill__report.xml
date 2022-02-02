@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Bill_Report"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/ivBack"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="360dp"
+        android:src="@drawable/back_black"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="gone"/>
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Bill Report"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/dimmed_yellow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivBack"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="75dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/app_background3"
+        app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="The Customer can view the report created by the system"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            tools:layout_editor_absoluteX="141dp"
+            tools:layout_editor_absoluteY="-85dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/app_background1"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:text="SUMMER TARRIFS: \n 1 SEPT 2021 - 31 MAY 2022
+PRICE FOR: \nBLOCK 1(0-350units) > R 1.7737 + 15% = \nR 2.03 cents/unit
+\nBLOCK 2 (351 units &amp; above) > R 2.0478 + 15% = \nR 2.35 cents/units
+\n NB: 350 units – 344.82 units= 5.18 Units
+8th R100 >> 5.18* R2.03 = R 10.51   >>> R100.00 – R10.51= R 89.49
+R89.49/ R2.35 cents /unit= 38.08 units
+Total Units> 38.08 units + 5.18 units= 43.26 units"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:text="WINTER TARRIFS:\n 1 JULY 2021-31 AUG 2021 &amp; 01 June 2022-30 June 2022
+PRICE; BLOCK 1(0-350units)> R 2.1929 + 15%= R 2.52 cents/unit
+ BLOCK 2 (351 units &amp; above) >R 2.6607 + 15%= R 3.05 cents/units \n
+NB: 350 units – units= 32.56 Units
+9th R100>> 32.56* R2.52 = R 82.05 >>> R100.00 – R82.05= R17.95
+R17.95/ R3.05 cents /unit= 5.89 units
+Total Units> 32.56 units + 5.89 units= 38.45 units"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Your Current Report"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="24sp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginBottom="20dp"
+                    android:paddingBottom="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/readings_background4">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:textSize="19sp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="10dp"
+                            android:textColor="@color/black"
+                            android:text="Latest Recorded Reading"/>
+
+                        <View
+                            android:id="@+id/view11"
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="1dp"
+                            android:background="@color/black">
+                        </View>
+
+                        <TextView
+                            android:id="@+id/tvDateReadingPosted"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:text="Date Posted:"/>
+
+                        <TextView
+                            android:id="@+id/tvCurrentUnits"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:text="Units: 166"/>
+
+                        <TextView
+                            android:id="@+id/tvCurrentBillingDescription"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:text="Cost per unit: R33.54 \n(summer tariff price)"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:orientation="vertical"
+                        android:paddingBottom="10dp"
+                        android:gravity="center_horizontal">
+
+                        <View
+                            android:id="@+id/view12"
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="1dp"
+                            android:background="@color/black">
+                        </View>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="Total Cost"
+                            android:textColor="@color/black"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/tvTotalCostInRand"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:textSize="25sp"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/black"
+                            android:text="R16 456"/>
+
+                        <View
+                            android:id="@+id/view13"
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="1dp"
+                            android:background="@color/black">
+                        </View>
+
+<!--                        <TextView-->
+<!--                            android:id="@+id/tvCostPerUnit"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="5dp"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:textColor="@color/black"-->
+<!--                            android:text="Cost per unit: R33.54 (summer tariff price)"-->
+<!--                            android:layout_marginStart="10dp"/>-->
+
+<!--                        <TextView-->
+<!--                            android:id="@+id/tvTotalCostInRand"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="5dp"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:textColor="@color/black"-->
+<!--                            android:text="Total cost in rand (excluding vat): R5 567, 64"-->
+<!--                            android:layout_marginStart="10dp"/>-->
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
